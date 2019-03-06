@@ -32,9 +32,8 @@ const writeToFile = (str) => {
                       reject(err);
                 }
 
-                resolve("success!");
                 // success case, the file was saved
-                console.log('Lyric saved!');
+                resolve("success!");
             });
       });
 }
